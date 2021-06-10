@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 0vh;
+  width: 100vh;
+}
+
+.bg {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  nav {
+    width: 100%;
+    padding: 2rem;
+    ul {
+      width: 70%;
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+      li {
+        font-size: 1.7rem;
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+  section.left {
+    h1 {
+      font-size: 3.5rem;
+      color: rgb(167, 222, 224);
+    }
+    p {
+      font-size: 1.5rem;
+      color: white;
+      padding: 1rem, 0;
+    }
+
+    padding: 2rem;
+    background-color: rgba(123, 123, 123, 0.75);
+    flex: 3 1 500px;
+    position: relative;
+  }
+  section.right {
+    background-color: rgba(252, 252, 252, 0.4);
+    flex: 1 1 470px;
+    position: relative;
+    img {
+      border-radius: 50%;
+      width: 20vw;
+      height: 20vw;
+      position: absolute;
+      top: 45vh;
+      left: 10vw;
+      z-index: 1;
+    }
+  }
+  section.table {
+    flex: 3 1 30vw;
+    padding: 1rem;
+    table {
+      background-color: rgba(0, 140, 140, 0.55);
+      border-radius: 15px;
+      border-collapse: collapse;
+
+      tr {
+        border-bottom: 2px solid gray;
+        padding: 0.5rem;
+        transition: all 0.3s ease;
+
+        td {
+          padding: 0.5rem;
+        }
+        &:hover {
+          background-color: rgba(128, 128, 128, 0.45);
+        }
+      }
+    }
+  }
+
+  section.picture {
+    flex: 1 1 300px;
+    img {
+      width: 200px;
+    }
+  }
+
+  img.skill {
+    width: "48";
+  }
+}
+
+.active {
+  color: royalblue;
+  background-color: rgb(231, 219, 44);
+}
+
+@media screen and (max-width: 1010px) {
+  header {
+    nav {
+      ul {
+        flex-direction: column;
+        li {
+          padding: 2rem 0;
+          width: 100%;
+          border-bottom: 2px solid gray;
+        }
+      }
+    }
+  }
+  section {
+    left {
+      width: 100%;
+    }
+  }
+  .bg {
+    height: 100%;
+  }
+  .active {
+    background-color: seashell;
+  }
+}

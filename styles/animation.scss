@@ -1,0 +1,199 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(224, 142, 88);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  #firstLine {
+    stroke-dasharray: 1970px;
+    stroke-dashoffset: 1970px;
+    animation: fadeInside 2.4s ease-in forwards;
+  }
+
+  #secondLine_0 {
+    stroke-dasharray: 297px;
+    stroke-dashoffset: 297px;
+    animation: fadeInside 0.47s ease-in forwards;
+  }
+
+  #secondLine_1 {
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation: fadeInside 0.47s ease-in forwards 0.25s;
+  }
+
+  #secondLine_2 {
+    stroke-dasharray: 181px;
+    stroke-dashoffset: 181px;
+    animation: fadeInside 0.47s ease-in forwards 0.5s;
+  }
+
+  #secondLine_3 {
+    stroke-dasharray: 162px;
+    stroke-dashoffset: 162px;
+    animation: fadeInside 0.47s ease-in forwards 0.75s;
+  }
+
+  #secondLine_4 {
+    stroke-dasharray: 321px;
+    stroke-dashoffset: 321px;
+    animation: fadeInside 0.47s ease-in forwards 1s;
+  }
+
+  #secondLine_5 {
+    stroke-dasharray: 251px;
+    stroke-dashoffset: 251px;
+    animation: fadeInside 0.47s ease-in forwards 1.25s;
+  }
+
+  #secondLine_6 {
+    stroke-dasharray: 130px;
+    stroke-dashoffset: 130px;
+    animation: fadeInside 0.47s ease-in forwards 1.5s;
+  }
+
+  #secondLine_7 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 1.75s;
+  }
+
+  #secondLine_8 {
+    stroke-dasharray: 302px;
+    stroke-dashoffset: 302px;
+    animation: fadeInside 0.47s ease-in forwards;
+  }
+
+  #secondLine_9 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 0.17s;
+  }
+
+  #secondLine_10 {
+    stroke-dasharray: 179px;
+    stroke-dashoffset: 179px;
+    animation: fadeInside 0.47s ease-in forwards 0.35;
+  }
+
+  #secondLine_11 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 0.52s;
+  }
+
+  #secondLine_12 {
+    stroke-dasharray: 135px;
+    stroke-dashoffset: 135px;
+    animation: fadeInside 0.47s ease-in forwards 0.6s;
+  }
+
+  #secondLine_13 {
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation: fadeInside 0.47s ease-in forwards 0.67s;
+  }
+
+  #secondLine_14 {
+    stroke-dasharray: 275px;
+    stroke-dashoffset: 275px;
+    animation: fadeInside 0.47s ease-in forwards 0.75s;
+  }
+
+  #secondLine_15 {
+    stroke-dasharray: 343px;
+    stroke-dashoffset: 343px;
+    animation: fadeInside 0.47s ease-in forwards 0.82s;
+  }
+
+  #secondLine_16 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 0.9s;
+  }
+
+  #secondLine_17 {
+    stroke-dasharray: 220px;
+    stroke-dashoffset: 220px;
+    animation: fadeInside 0.47s ease-in forwards 0.97s;
+  }
+
+  #secondLine_18 {
+    stroke-dasharray: 163px;
+    stroke-dashoffset: 163px;
+    animation: fadeInside 0.47s ease-in forwards 1.05s;
+  }
+
+  #secondLine_19 {
+    stroke-dasharray: 292px;
+    stroke-dashoffset: 292px;
+    animation: fadeInside 0.47s ease-in forwards;
+  }
+
+  #secondLine_20 {
+    stroke-dasharray: 220px;
+    stroke-dashoffset: 220px;
+    animation: fadeInside 0.47s ease-in forwards 0.25s;
+  }
+
+  #secondLine_21 {
+    stroke-dasharray: 317px;
+    stroke-dashoffset: 317px;
+    animation: fadeInside 0.47s ease-in forwards 0.5s;
+  }
+
+  #secondLine_22 {
+    stroke-dasharray: 126px;
+    stroke-dashoffset: 126px;
+    animation: fadeInside 0.47s ease-in forwards 0.75s;
+  }
+
+  #secondLine_23 {
+    stroke-dasharray: 220px;
+    stroke-dashoffset: 220px;
+    animation: fadeInside 0.47s ease-in forwards 1s;
+  }
+
+  #secondLine_24 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 1.25s;
+  }
+
+  #secondLine_25 {
+    stroke-dasharray: 244px;
+    stroke-dashoffset: 244px;
+    animation: fadeInside 0.47s ease-in forwards 1.5s;
+  }
+
+  #secondLine_26 {
+    stroke-dasharray: 130px;
+    stroke-dashoffset: 130px;
+    animation: fadeInside 0.47s ease-in forwards 1.75s;
+  }
+}
+svg {
+  animation: fill 1s ease-in forwards 7s;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}

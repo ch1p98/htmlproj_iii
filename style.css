@@ -1,0 +1,40 @@
+* {
+  /* width: 100%;
+  height: 100%; */
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid blue;
+  background-color: darkseagreen;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: 150px;
+  height: 370px;
+}
+
+.box0 {
+  flex-grow: 1;
+  background-color: aqua;
+}
+.box1 {
+  background-color: darkgreen;
+}
+.box2 {
+  background-color: hotpink;
+}
+.box3 {
+  background-color: tan;
+}
+.box4 {
+  background-color: lawngreen;
+}
+
+.boxx {
+  flex-basis: 225px;
+  height: 370px;
+  background-color: brown;
+}

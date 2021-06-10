@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 0vh;
+  width: 100vh;
+}
+
+.bg {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+header nav {
+  width: 100%;
+  padding: 2rem;
+}
+
+header nav ul {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  font-size: 1.7rem;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section.left {
+  padding: 2rem;
+  background-color: rgba(123, 123, 123, 0.75);
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
+  position: relative;
+}
+
+main section.left h1 {
+  font-size: 3.5rem;
+  color: #a7dee0;
+}
+
+main section.left p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem, 0;
+}
+
+main section.right {
+  background-color: rgba(252, 252, 252, 0.4);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 470px;
+          flex: 1 1 470px;
+  position: relative;
+}
+
+main section.right img {
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top: 45vh;
+  left: 10vw;
+  z-index: 1;
+}
+
+main section.table {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 30vw;
+          flex: 3 1 30vw;
+  padding: 1rem;
+}
+
+main section.table table {
+  background-color: rgba(0, 140, 140, 0.55);
+  border-radius: 15px;
+  border-collapse: collapse;
+}
+
+main section.table table tr {
+  border-bottom: 2px solid gray;
+  padding: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+main section.table table tr td {
+  padding: 0.5rem;
+}
+
+main section.table table tr:hover {
+  background-color: rgba(128, 128, 128, 0.45);
+}
+
+main section.picture {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+main section.picture img {
+  width: 200px;
+}
+
+main img.skill {
+  width: "48";
+}
+
+.active {
+  color: royalblue;
+  background-color: #e7db2c;
+}
+
+@media screen and (max-width: 1010px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav ul li {
+    padding: 2rem 0;
+    width: 100%;
+    border-bottom: 2px solid gray;
+  }
+  section left {
+    width: 100%;
+  }
+  .bg {
+    height: 100%;
+  }
+  .active {
+    background-color: seashell;
+  }
+}
+/*# sourceMappingURL=style.css.map */
